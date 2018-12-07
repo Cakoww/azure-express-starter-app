@@ -1,27 +1,17 @@
 {
-  "name": "WebMatrixExpressSite",
-  "version": "0.2.0",
-  "author": "The WebMatrix Team <webmatrix@microsoft.com>",
-  "description": "A simple boilerplate for building node applications on Windows Azure (or wherever)",
-  "contributors": [
-    {
-      "name": "Microsoft",
-      "email": "appgal@microsoft.com"
-    }
-  ],
-  "main": "./server.js",
-  "keywords": [
-    "azure",
-    "boilerplate",
-    "express"
-  ],
-  "dependencies": {
-    "jade": "*",
-    "express": "~3.1.0"
+  "name": "azure-express-4-app-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   },
-  "noAnalyze": true,
-  "license": "Apache",
-  "engines": {
-    "node": "~0.10.0 || ~4.2.0"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "0.11.0",
+    "pug": "2.0.0-beta11"
   }
 }
